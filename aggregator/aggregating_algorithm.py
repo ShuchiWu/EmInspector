@@ -531,42 +531,6 @@ def RFLBAT(gradients, weights):
     return global_w
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def eminspector(args, local_weights, detect_model, global_model):
     print('='*15,'EmInspector','='*15)
     server_detect_data = get_inspection_data(args)
