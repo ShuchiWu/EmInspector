@@ -268,6 +268,8 @@ def flame(local_model, update_params, global_model, attacker_num,args):
 logger = logging.getLogger('logger')
 warnings.filterwarnings('ignore', category=FutureWarning)
 warnings.filterwarnings('ignore', category=UserWarning)
+
+
 def gap_statistics(data, num_sampling, K_max, n):
     num_cluster = 0
     data = np.reshape(data, (data.shape[0], -1))
