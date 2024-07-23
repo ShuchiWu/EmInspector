@@ -19,3 +19,13 @@ For evaluations of the trained image encoders (main task accuracy and backdoor a
 ```script
 python downstream_classifier.py
 ```
+## Citation
+If you use this code, please cith the paper:
+```script
+@article{qian2024eminspector,
+  title={EmInspector: Combating Backdoor Attacks in Federated Self-Supervised Learning Through Embedding Inspection},
+  author={Qian, Yuwen and Wu, Shuchi and Wei, Kang and Ding, Ming and Xiao, Di and Xiang, Tao and Ma, Chuan and Guo, Song},
+  journal={arXiv preprint arXiv:2405.13080},
+  year={2024}
+}
+```
