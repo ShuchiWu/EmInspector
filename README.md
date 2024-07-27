@@ -10,7 +10,11 @@ python fed_simclr.py
 ```
 
 ## Backdoor the pre-trained model
-Since BadEncoder is one of the most renowned and effective backdoor attacks targeting self-supervised models, we employ it to evaluate the robustness of our federated self-supervised learning system. Additionally, considering the distributed nature of the federated system, we also consider another well-known backdoor attack scheme tailored for distributed machine learning systems, named [DBA](https://openreview.net/pdf?id=rkgyS0VFvr). In our paper, the original BadEncoder is termed as a single-pattern attack, while the DBA-incorporated version is termed as a coordinated-pattern attack. To execute the backdoor attack, simply modify the trigger used by each malicious client and run the following script:
+Since BadEncoder is one of the most renowned and effective backdoor attacks targeting self-supervised models, we employ it to evaluate the robustness of our federated self-supervised learning system. Additionally, considering the distributed nature of the federated system, we also consider another well-known backdoor attack scheme tailored for distributed machine learning systems, named [DBA](https://openreview.net/pdf?id=rkgyS0VFvr). In our paper, the original BadEncoder is termed as a single-pattern attack, while the DBA-incorporated version is termed as a coordinated-pattern attack (triggers are illustrated below). 
+<div align="center">
+  <img src="https://github.com/ShuchiWu/EmInspector/blob/main/trigger_illustration.jpg" width=60%>
+</div>
+To execute the backdoor attack, simply modify the trigger used by each malicious client and run the following script:
 ```script
 python backdoor_fssl.py
 ```
