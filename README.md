@@ -14,6 +14,7 @@ Since BadEncoder is one of the most renowned and effective backdoor attacks targ
 <div align="center">
   <img src="https://github.com/ShuchiWu/EmInspector/blob/main/trigger_illustration.jpg" width=60%>
 </div>
+
 To execute the backdoor attack, simply modify the trigger used by each malicious client and run the following script:
 ```script
 python backdoor_fssl.py
